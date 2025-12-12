@@ -1,0 +1,6 @@
+dist/
+.vscode/idea/
+*.iml
+out/
+*.class
+.DS_Store

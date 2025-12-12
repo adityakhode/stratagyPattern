@@ -3,7 +3,7 @@ package observer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EventManager {
+public class EventManager implements Subject {
     private final List<Observer> observers = new ArrayList<>();
 
     public void attach(Observer o) { observers.add(o); }
